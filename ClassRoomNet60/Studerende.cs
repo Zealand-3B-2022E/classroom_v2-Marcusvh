@@ -12,7 +12,7 @@ namespace ClassRoomNet60
         private int _fødelsmåned;
         private int _fødelsdag;
 
-        public Studerende(int fødelsmåned, int fødelsdag, string navn)
+        public Studerende(string navn, int fødelsmåned, int fødelsdag)
         {
             _navn = navn;          
             _fødelsmåned = fødelsmåned;
